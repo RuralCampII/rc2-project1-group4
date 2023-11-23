@@ -5,7 +5,7 @@
 	list-style: none;
 	text-decoration: none;
 	border: none;
-	outline: solid 1px red;
+	outline: none;
 }
 
 :root {
@@ -48,20 +48,19 @@ header{
 }
 
 .header_right_who, .header_right_what{
-    color: var(--header-colorsecond);
+    color: var(--header-colormain);
     padding: 1em;
 }
 .header_right_who:hover, .header_right_what:hover{
     background-color: var(--header-bgcolorsecond);
-    color: var(--header-colormain);
+    color: var(--header-colorsecond);
     padding: 1em;
 }
 
 main{
     background-color: var(--main-bgcolormain);
     min-height: 100vh; 
-    padding-top: 1.25em;   
-   
+    padding: 3em 0em;   
 }
 
 .main{
@@ -69,17 +68,23 @@ main{
     margin: auto;
 }
 
+.main_title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
 .main_title h1{
     margin-bottom: 0.625em;
 }
 
 .profile_section{
-    width: 100%;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
     justify-items: center;    
     margin-top: 1.25em;  
 }

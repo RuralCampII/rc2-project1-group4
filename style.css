@@ -49,8 +49,8 @@ header {
 }
 
 .team_name {
-  color: var(--header-colormain);
-  font-size: 2em; /* en Figma viene 24 px, pero creo que es pequeño. 1em son 16px, así que aquí tenemos 32px*/
+    color: var(--header-colormain);
+    font-size: 2em; /* en Figma viene 24 px, pero creo que es pequeño. 1em son 16px, así que aquí tenemos 32px*/
 }
 
 .header_right_who,

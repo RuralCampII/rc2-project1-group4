@@ -1,103 +1,101 @@
 /* Reseteo de la página */
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    outline: none;
-  }
-  /* Fuentes */
-  
-  @font-face {
-      font-family: "Geomanist-Black";
-      src: url("/fonts/Geomanist-Black.otf");
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-  
-  :root {
-    --header-bgcolormain: #0874a3;
-    --header-bgcolorsecond: #02d3bd;
-    --header-colormain: #fff;
-    --header-colorsecond: #000;
-    --main-bgcolormain: #e4f2fa;
-    
-  }
-  
-  body {
-    font-family: 'Poppins', sans-serif, Arial;
-    width: 100%;
-  }
-  
-  header {
-    background-color: var(--header-bgcolormain);
-    height: 3.75em; /* corresponde a 60px */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Geomanist-Black";
-  }
-  
-  .header_left,
-  .header_right {
-      display: flex;
-      align-items: center;
-      gap: 1em;
-      padding: 0 8em;
-  
-  }
-  
-  .team_name {
-    color: var(--header-colormain);
-    font-size: 2em; /* en Figma viene 24 px, pero creo que es pequeño. 1em son 16px, así que aquí tenemos 32px*/
-  }
-  
-  .header_right_who,
-  .header_right_what {
-    color: var(--header-colormain);
-    padding: 1em;
-  }
-  .header_right_who:hover,
-  .header_right_what:hover {
-    background-color: var(--header-bgcolorsecond);
-    color: var(--header-colorsecond);
-    padding: 1em;
-  }
-  
-  main{
-    display:flex;
-    align-items: center;
-    margin: auto;
-    background-color: var(--main-bgcolormain);
-    height: 100vh;
-    justify-content: space-evenly;
-  }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+/* Fuentes */
 
-  .photo_profile{
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 4px 2px 8px 0px rgba(0, 0, 0, 0.25);
-  }
+@font-face {
+  font-family: "Geomanist-Black";
+  src: url("/fonts/Geomanist-Black.otf");
+}
 
-  section{
-    width: 40%;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-  h1{
-    margin-bottom: 1em;
-    font-family: "Geomanist-Black";
-    font-size: 2.5em;
-  }
+:root {
+  --header-bgcolormain: #0874a3;
+  --header-bgcolorsecond: #02d3bd;
+  --header-colormain: #fff;
+  --header-colorsecond: #000;
+  --main-bgcolormain: #e4f2fa;
+}
 
-  p{
-    font-size: 1.25em;
-    margin-bottom: 1em;
-  }
+body {
+  font-family: "Poppins", sans-serif, Arial;
+  width: 100%;
+}
 
-  .logos_profile img{
-    width: 30px;
-    margin-right: 10px;
-  }
+header {
+  background-color: var(--header-bgcolormain);
+  height: 3.75em; /* corresponde a 60px */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Geomanist-Black";
+}
+
+.header_left,
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0 8em;
+}
+
+.team_name {
+  color: var(--header-colormain);
+  font-size: 2em; /* en Figma viene 24 px, pero creo que es pequeño. 1em son 16px, así que aquí tenemos 32px*/
+}
+
+.header_right_who,
+.header_right_what {
+  color: var(--header-colormain);
+  padding: 1em;
+}
+.header_right_who:hover,
+.header_right_what:hover {
+  background-color: var(--header-bgcolorsecond);
+  color: var(--header-colorsecond);
+  padding: 1em;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: var(--main-bgcolormain);
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.photo_profile {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 4px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+section {
+  width: 40%;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-family: "Geomanist-Black";
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+.logos_profile img {
+  width: 30px;
+  margin-right: 10px;
+}

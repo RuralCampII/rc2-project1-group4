@@ -10,11 +10,11 @@
 /* Fuentes */
 
 @font-face {
-    font-family: "Geomanist-Black";
-    src: url("/fonts/Geomanist-Black.otf");
+  font-family: "Geomanist-Black";
+  src: url("/fonts/Geomanist-Black.otf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
   --header-bgcolormain: #0874a3;
@@ -22,11 +22,10 @@
   --header-colormain: #fff;
   --header-colorsecond: #000;
   --main-bgcolormain: #e4f2fa;
-  
 }
 
 body {
-  font-family: 'Poppins', sans-serif, Arial;
+  font-family: "Poppins", sans-serif, Arial;
   width: 100%;
 }
 
@@ -41,16 +40,15 @@ header {
 
 .header_left,
 .header_right {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    padding: 0 8em;
-
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0 8em;
 }
 
 .team_name {
-    color: var(--header-colormain);
-    font-size: 2em; /* en Figma viene 24 px, pero creo que es pequeño. 1em son 16px, así que aquí tenemos 32px*/
+  color: var(--header-colormain);
+  font-size: 2em; /* en Figma viene 24 px, pero creo que es pequeño. 1em son 16px, así que aquí tenemos 32px*/
 }
 
 .header_right_who,
@@ -69,7 +67,7 @@ main {
   background-color: var(--main-bgcolormain);
   min-height: 100vh;
   padding: 3em 0em;
- 
+
   margin: auto;
 }
 

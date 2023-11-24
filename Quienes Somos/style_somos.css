@@ -1,0 +1,111 @@
+/* Reseteo de la página */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+/* Fuentes */
+
+@font-face {
+    font-family: "Geomanist-Black";
+    src: url("/fonts/Geomanist-Black.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --header-bgcolormain: #0874a3;
+  --header-bgcolorsecond: #02d3bd;
+  --header-colormain: #fff;
+  --header-colorsecond: #000;
+  --main-bgcolormain: #e4f2fa;
+  
+}
+
+body {
+  font-family: 'Poppins', sans-serif, Arial;
+  width: 100%;
+}
+
+header {
+  background-color: var(--header-bgcolormain);
+  height: 3.75em; /* corresponde a 60px */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Geomanist-Black";
+}
+
+.header_left,
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 0 8em;
+
+}
+
+.team_name {
+    color: var(--header-colormain);
+    font-size: 2em; /* en Figma viene 24 px, pero creo que es pequeño. 1em son 16px, así que aquí tenemos 32px*/
+}
+
+.header_right_who,
+.header_right_what {
+  color: var(--header-colormain);
+  padding: 1em;
+}
+.header_right_who:hover,
+.header_right_what:hover {
+  background-color: var(--header-bgcolorsecond);
+  color: var(--header-colorsecond);
+  padding: 1em;
+}
+
+main {
+  background-color: var(--main-bgcolormain);
+  min-height: 100vh;
+  padding: 3em 0em;
+ 
+  margin: auto;
+}
+
+.main_title {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.625em;
+  font-family: "Geomanist-Black";
+}
+
+.profile_section {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin-top: 1.25em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+  margin: 0.625em;
+  padding: 1.25em;
+}
+
+.photo_profile {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 4px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}

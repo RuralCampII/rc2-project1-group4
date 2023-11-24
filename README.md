@@ -27,8 +27,6 @@ Yoel
 https://github.com/YoelFJ
 construction worker code - Organizacion del boceto principal, diseño visual y creacion de su perfil.
 
-![https](https://images.unsplash.com/photo-1554692918-08fa0fdc9db3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) 
-
 -- Tecnologías Utilizadas --
 FIGMA
 GIT
